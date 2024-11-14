@@ -1,0 +1,55 @@
+/*centro todo*/
+main {
+    background-color: wheat;
+    display: flex;
+    justify-content: center;
+}
+.contenedor-inicial{
+    margin-top: 30px;
+    width: 600px;
+    height: auto;
+}
+.contenedorareasnaturales {
+    position: relative;
+}
+.imagen1 {
+width: 100%;
+}
+.descripcion1 {
+    display: flex;
+    position: absolute;
+    width: 20px;  
+    height: 20px;
+    top: 50%;  
+    left: 15%;
+    justify-content: space-between;
+    gap: 50px;
+}
+.lic-enadministracion {
+display: flex;
+gap: 40px;
+}
+.imagen2 {
+justify-content: left;
+}
+.descripcion2 {
+    justify-content: space-between;
+}
+.tec-univ-guardaparques {
+    display: flex;
+    gap: 40px;
+}
+
+.imagen3 {
+    justify-content: left;
+}
+
+.descripcion3 {
+    justify-content: space-between;
+}
+p{
+    color: aquamarine;
+}
+h1{
+    color: white;
+}
